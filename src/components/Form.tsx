@@ -1,43 +1,42 @@
-import React from 'react';
+import { useState } from 'react';
+import useFrom from './useForm';
 type formFields = {
   title: string,
-  email?: boolean,
-  name?: boolean,
-  password?: boolean
 }
 export default function Form(fealds: formFields) {
+  const initialState = {
+    email: "",
+    password: ""
+  }
+  const [value, setValue] = useState(initialState);
+
+  const loginCallback = () => {
+    alert(`Email: ${value.email}, Password: ${value.password}`);
+    setValue(initialState);
+  }
+  const { onSubmit } = useFrom(loginCallback)
 
   return (
     <>
-      <form action="submit.php">
+      <form onSubmit={onSubmit}>
         <h1>{fealds.title}</h1>
         <table>
-          {fealds.email ? (
+          <tbody>
             <tr>
               <td>Email</td>
               <td>
-                <input type="email" />
+                <input onChange={(e) => setValue({ ...value, [e.target.name]: e.target.value })} type="email" name="email" id="email" value={value.email} />
               </td>
             </tr>
-          ) : null}
-          {fealds.name ? (
-            <tr>
-              <td>Name</td>
-              <td>
-                <input type="text" />
-              </td>
-            </tr>) : null}
-          {fealds.password ? (
             <tr>
               <td>Password</td>
               <td>
-                <input type="password" />
+                <input onChange={(e) => setValue({ ...value, [e.target.name]: e.target.value })} type="password" name="password" id="password" value={value.password} />
               </td>
             </tr>
-          ) : null}
+          </tbody>
         </table>
-        <button className="button-submit">Submit</button>
-
+        <button type="submit" className="button-submit">Submit</button>
       </form>
     </>
   );

@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <div className="tableCellWrapper">
         <div className="tableCell">
-          <Form title="Login Form" password name email />
+          <Form title="Login Form" />
         </div>
       </div>
 

@@ -1,5 +1,10 @@
 # React & Tyoescript Form
+[Demo](https://ayakatsubouchi.github.io/react-typescript-form)
 ![demo](https://github.com/AyakaTsubouchi/react-typescript-form/blob/main/src/images/demo_image.png)
+
+## Reference
+Article: [Build forms using React, the easy way ( with Typescript )](https://dev.to/karan316/build-forms-using-react-the-easy-way-with-typescript-46bh)
+Youtube tutorial [TypeScript Tutorial - TypeScript for React - Learn TypeScript[2020]](https://www.youtube.com/watch?v=NjN00cM18Z4)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
