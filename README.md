@@ -1,5 +1,5 @@
 # React & Tyoescript Form
-![demo](https://github.com/AyakaTsubouchi/react-typescript-form/blob/main/src/images/bg.jpeg)
+![demo](https://github.com/AyakaTsubouchi/react-typescript-form/blob/main/src/images/demo_image.png)
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
