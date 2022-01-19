@@ -1,6 +1,6 @@
 # React & Tyoescript Form
 [Demo](https://ayakatsubouchi.github.io/react-typescript-form) <br />
-![demo](https://github.com/AyakaTsubouchi/react-typescript-form/blob/main/src/images/demo_image.png)<br />
+![demo](https://github.com/AyakaTsubouchi/react-typescript-form/blob/main/src/images/demo_image.png)
 
 ## Reference
 Article: [Build forms using React, the easy way ( with Typescript )](https://dev.to/karan316/build-forms-using-react-the-easy-way-with-typescript-46bh)<br />
