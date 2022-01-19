@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/react-typescript-form/static/css/main.ef3f74cd.css",
+    "main.js": "/react-typescript-form/static/js/main.f727b841.js",
+    "static/js/787.9567f08f.chunk.js": "/react-typescript-form/static/js/787.9567f08f.chunk.js",
+    "static/media/bg.jpeg": "/react-typescript-form/static/media/bg.6d6149658824644f0de4.jpeg",
+    "index.html": "/react-typescript-form/index.html",
+    "main.ef3f74cd.css.map": "/react-typescript-form/static/css/main.ef3f74cd.css.map",
+    "main.f727b841.js.map": "/react-typescript-form/static/js/main.f727b841.js.map",
+    "787.9567f08f.chunk.js.map": "/react-typescript-form/static/js/787.9567f08f.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ef3f74cd.css",
+    "static/js/main.f727b841.js"
+  ]
+}
