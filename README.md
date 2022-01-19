@@ -1,4 +1,4 @@
-# React & Tyoescript Form
+# React & Typescript Form
 [Demo](https://ayakatsubouchi.github.io/react-typescript-form) <br />
 ![demo](https://github.com/AyakaTsubouchi/react-typescript-form/blob/main/src/images/demo_image.png)
 
