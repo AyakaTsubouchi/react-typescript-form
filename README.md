@@ -5,6 +5,10 @@
 ## Reference
 Article: [Build forms using React, the easy way ( with Typescript )](https://dev.to/karan316/build-forms-using-react-the-easy-way-with-typescript-46bh)
 Youtube tutorial [TypeScript Tutorial - TypeScript for React - Learn TypeScript[2020]](https://www.youtube.com/watch?v=NjN00cM18Z4)
+
+## How to deploy react project to GitHub Pages
+Article: [How to deploy React App to GitHub Pages](https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
